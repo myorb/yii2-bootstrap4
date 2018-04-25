@@ -84,7 +84,9 @@ class ActiveForm extends \yii\widgets\ActiveForm
     /**
      * @var string the CSS class that is added to a field container when the associated attribute has validation error.
      */
-    public $errorCssClass = 'has-danger';
+    public $errorCssClass = 'is-invalid';
+    public $validationStateOn = self::VALIDATION_STATE_ON_INPUT;
+    public $errorSummaryCssClass = 'alert alert-danger';
 
 
     /**
