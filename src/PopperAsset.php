@@ -19,6 +19,6 @@ class PopperAsset extends AssetBundle
 {
     public $sourcePath = '@bower/popper.js/dist';
     public $js = [
-        'umd/popper.js',
+        'umd/popper.min.js',
     ];
 }
